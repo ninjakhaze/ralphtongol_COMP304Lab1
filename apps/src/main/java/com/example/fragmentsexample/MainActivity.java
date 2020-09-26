@@ -1,4 +1,4 @@
-package com.example.ralphtongol_comp304lab1_ex1;
+package com.example.fragmentsexample;
 
 import androidx.appcompat.app.AppCompatActivity;
 

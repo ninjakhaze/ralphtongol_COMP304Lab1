@@ -7,12 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link BottomFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class BottomFragment extends Fragment {
 
     public BottomFragment() {
@@ -24,5 +20,13 @@ public class BottomFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_bottom, container, false);
+    }
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+        TextView textView = (TextView) view.findViewById(R.id.mainActivity);
+        textView.setText("\t\tMain Activity:\n" +
+                "\t\t\t\tonCreate executed\n" +
+                "\t\t\t\tonStart executed");
     }
 }

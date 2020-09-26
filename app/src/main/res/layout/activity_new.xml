@@ -12,7 +12,9 @@
         android:gravity="fill"
         android:textSize="35dp"
         android:textColor="@android:color/holo_red_light"
-        android:text="\t\tAIActivity:\n\t\t\tonCreate executed\n\t\t\tonStart executed" />
+        android:id="@+id/AIActivity" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

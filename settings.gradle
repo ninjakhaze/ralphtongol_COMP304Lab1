@@ -1,2 +1,3 @@
+include ':apps'
 include ':app'
 rootProject.name = "ralphtongol_COMP304Lab1_Ex1"

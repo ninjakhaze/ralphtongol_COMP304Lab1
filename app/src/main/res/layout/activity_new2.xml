@@ -12,6 +12,6 @@
         android:gravity="fill"
         android:textSize="35dp"
         android:textColor="@android:color/holo_red_light"
-        android:text="\t\tVRActivity:\n\t\t\tonCreate executed\n\t\t\tonStart executed" />
+        android:id="@+id/VRActivity"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

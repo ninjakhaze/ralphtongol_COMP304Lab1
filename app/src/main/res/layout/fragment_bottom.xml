@@ -3,16 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#808080"
 
     tools:context=".BottomFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/mainActivity"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textSize="40dp"
-        android:textColor="@android:color/holo_red_light"
-        android:text="Main Activity:\nonCreate executed\nonStart executed" />
+        android:textColor="@android:color/holo_red_light"/>
 </FrameLayout>
